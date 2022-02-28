@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc.
+
+            Medidas Relativas
+            em, ex, rem, vmw, vh, %
+
+            16px geralmente = 1em.
+            */
+            font-size: 1em;
+            font-weight: bolder;
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-famity
+
+            font-style: italic;
+            font-weight: border;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur nisi quae magnam ad autem ipsam assumenda corrupti id fugit ullam architecto reiciendis similique error earum adipisci, quia necessitatibus, illum sit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem qui earum quo nemo doloremque rerum itaque, voluptas vitae! Corporis iusto recusandae voluptate ad, et ut nesciunt! Inventore officiis accusamus similique?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, ut minima repellendus nobis sapiente atque! Corrupti exercitationem recusandae similique aut iure quae, minus odit earum qui deserunt illo eveniet veniam?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magnam incidunt deleniti praesentium dolorem minima id, fugiat quas excepturi autem eaque repellendus illo libero unde natus nesciunt nulla? Ratione, totam!</p>
+</body>
+</html>
