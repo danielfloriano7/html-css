@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Idroid';
-    src: url('/fonts/idroid.otf');
+    src: url('../fonts/idroid.otf');
 }
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('/fonts/BebasNeue-Regular.ttf');
+    src: url('../fonts/BebasNeue-Regular.ttf');
 }
 
 :root {
