@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço</title>
+
+    <style>
+
+        body {
+            margin: 0px;
+        }
+        #espaco {
+            position: relative;
+
+            height: 100vh;
+            
+            background-color: black;
+            background-image: url('images/espaco.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+            
+            
+        }
+
+        #astro {
+            max-width: 250px;
+            
+            
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="espaco">
+        <img src="images/astronauta.png" alt="astronauta" id="astro">
+    </section>
+</body>
+</html>
