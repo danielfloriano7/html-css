@@ -22,7 +22,7 @@ h1#principal {
     width: 500px;
     box-sizing: border-box;
   
-  transform: translate(50%, 0%);
+    margin: 30px auto
 
 }
 
