@@ -75,7 +75,9 @@
             var pais = document.querySelector('#pais').value
             var res = document.querySelector('#res')
 
-            if (pais =="Brasil" || pais == "BR") {
+            pais = pais.toLowerCase()
+
+            if (pais == "brasil" || pais == "br") {
                 res.innerHTML = 'Você é <strong>Brasileiro</strong>'
             } 
             else {
