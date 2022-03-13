@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, rgb(252, 92, 92), red);
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            max-width: 500px;
+            height: 350px;
+            margin: auto;
+            padding: 40px 4px 0px 4px;
+            text-align: center;
+            background-color: rgb(250, 218, 218);
+            border-radius: 15px;
+            border: 4px solid rgb(114, 0, 0);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        input {
+            width: 210px;
+            height: 27px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color: darkred;
+            color: white;
+        }
+
+        input:hover {
+            background-color: rgb(196, 0, 0);
+        }
+
+        input:active {
+            background-color: white;
+            color: darkred;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.589);
+        }
+
+        input, p {
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.541);
+        }
+
+        p {
+            height: 18px;
+            width: 200px;
+            margin: 10px auto ;
+            padding: 10px;
+            background-color: white;
+            border-radius: 7px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="sem">
+            <h1>Dia da semana</h1>
+            <input type="button" value="Clique aqui para saber o dia" onclick="dia()">
+            <p id="res1"></p>
+        </div>
+        <div id="hr">
+            <h1>Horario</h1>
+            <input type="button" value="Clique aqui para saber a hora" onclick="hora()">
+            <p id="res2"></p>
+        </div>
+    </main>
+    <script>
+        function dia() {
+            var agora = new Date()
+            var dias = agora.getDay()
+
+            switch (dias) {
+                case 0:
+                    res1.innerHTML = 'Hoje é <strong>Domingo</strong>'
+                    break
+                case 1:
+                    res1.innerHTML = 'Hoje é <strong>Segunda</strong>'
+                    break
+                case 2:
+                    res1.innerHTML = 'Hoje é <strong>Terça</strong>'
+                    break
+                case 3:
+                    res1.innerHTML = 'Hoje é <strong>Quarta</strong>'
+                    break
+                case 4:
+                    res1.innerHTML = 'Hoje é <strong>Quinta</strong>'
+                    break
+                case 5:
+                    res1.innerHTML = 'Hoje é <strong>Sexta</strong>'
+                    break
+                case 6:
+                    res1.innerHTML = 'Hoje é <strong>Sábado</strong>'
+                    break
+            } 
+        }
+
+        function hora() {
+            var agora = new Date()
+            var horas = agora.getHours()
+            var minutos = agora.getMinutes()
+            
+            res2.innerHTML = (`Agora são <strong>${horas}:${minutos}</strong>`)
+        }
+        
+    </script>
+</body>
+</html>
