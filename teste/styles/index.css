@@ -33,7 +33,7 @@ h1 {
                 1px -1px 0px #424242, 
                 -1px -1px 0px #424242;
    font-variant: small-caps;
-   font-size: 4em;
+   font-size: 3em;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -67,16 +67,18 @@ a.testes {
     
 }
 
-.testes:hover > h3 {
-    font-weight: bolder;
-}
-
-.testes > h3 {
+a.testes > h3 {
     color: #243d70;
+    text-decoration: underline;
     font-size: 1.3em;
     
     padding-bottom: 5px;
     font-weight: 500;
+}
+
+a.testes:hover > h3 {
+    font-weight: bolder;
+    text-decoration: 0px underline;
 }
 
  img:hover {
