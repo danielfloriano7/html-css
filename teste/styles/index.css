@@ -1,0 +1,98 @@
+@charset "UTC-8";
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: left top;
+    box-shadow: inset 0px -55px 10px rgba(0, 0, 0, 0.89);
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    background-image: linear-gradient(to top,#000000d2, #022433e1 ) ;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+
+h1 {
+   
+   padding: 0px;
+   color: white;
+   text-shadow: -1px 1px 0px #424242,
+                1px 1px 0px #424242,
+                1px -1px 0px #424242, 
+                -1px -1px 0px #424242;
+   font-variant: small-caps;
+   font-size: 4em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    max-width: 1100px;
+    height: 780px;
+    margin: auto;
+    padding: 20px;
+    background-color: #3C5993;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.514);
+
+}
+
+article {
+    background-color: white;
+    height: 780px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.493);
+    text-align: center;
+}
+
+
+
+a.testes {
+    margin: 20px;
+    padding: 6px;
+    background-color: rgba(128, 128, 128, 0.178);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.testes:hover > h3 {
+    font-weight: bolder;
+}
+
+.testes > h3 {
+    color: #243d70;
+    font-size: 1.3em;
+    
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+ img:hover {
+    width: 208px;
+ 
+    margin: -4px;
+}
+
+img {
+    width: 200px;
+}
+
+
+
+footer {
+    height: 50px;
+    background-color: black;
+    
+}
