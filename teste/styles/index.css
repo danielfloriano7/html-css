@@ -39,7 +39,7 @@ h1 {
 
 section {
     max-width: 1100px;
-    height: 780px;
+    min-height: 780px;
     margin: auto;
     padding: 20px;
     background-color: #3C5993;
@@ -49,7 +49,7 @@ section {
 
 article {
     background-color: white;
-    height: 780px;
+    min-height: 780px;
     border-radius: 5px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.493);
     text-align: center;
