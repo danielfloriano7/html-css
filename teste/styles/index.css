@@ -64,10 +64,7 @@ main {
     border: 2px solid rgb(116, 116, 116);
 }
 
-div#main {
-    min-width: 400px;
-    max-width: 1000px;
-}
+
 
 main p {
     background-color: rgb(182, 182, 182);
