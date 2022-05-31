@@ -3,6 +3,7 @@
 body {
    background-image: linear-gradient(to bottom, #92b99a, #4d774d);
    font-family: Arial, Helvetica, sans-serif;
+   background-attachment: fixed;
 }
 
 h1 {
