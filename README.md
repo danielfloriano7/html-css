@@ -6,11 +6,11 @@
 </a> 
 <br/>
 
-<a href="https://danielfloriano7.github.io/projeto-cordel/"> <img width="40" src="https://github.com/danielfloriano7/projeto-cordel/blob/main/images/cordelm.png" /> 
+<a href="https://danielfloriano7.github.io/projeto-cordel/"> <img width="40" src="https://github.com/danielfloriano7/projeto-cordel/blob/main/images/cordelm.svg" /> 
  &ensp;Executar o mini-projeto Cordel
 </a>
 <br/>
 
-<a href="https://danielfloriano7.github.io/html-css/teste"> <img width="40" src="https://github.com/danielfloriano7/html-css/blob/main/teste/favicon.ico" />
+<a href="https://danielfloriano7.github.io/html-css/teste"> <img width="40" src="https://github.com/danielfloriano7/html-css/blob/main/teste/images/favicon.svg" />
 &ensp;Meus Testes
 </a>
