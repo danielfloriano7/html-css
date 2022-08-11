@@ -10,7 +10,7 @@
 
 body {
     font-family: 'M PLUS 1 Code', sans-serif;
-    background-image: url(../images/header.jpg);
+    background-image: url('../img/header.jpg');
     background-size: cover;
     background-position: left top;
     box-shadow: inset 0px -55px 10px rgba(0, 0, 0, 0.89);
