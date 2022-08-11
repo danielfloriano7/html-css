@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/img/pais.png" type="image/x-icon">
     <link rel="stylesheet" href="src/css/index.css">
+    <script defer src="./src/js/index.js"></script>
     <title>País</title>
     </style>
 </head>
@@ -21,22 +22,5 @@
         </div>
         <p id="voltar"><a href="https://danielfloriano7.github.io/html-css/teste/"> Voltar</a></p>
     </main>
-
-    <script>
-        function saber() {
-            var pais = document.querySelector('#pais').value
-            var res = document.querySelector('#res')
-
-            pais = pais.toLowerCase()
-
-            if (pais == "brasil" || pais == "br") {
-                res.innerHTML = 'Você é <strong>Brasileiro</strong>'
-            } 
-            else {
-                res.innerHTML = ('Você é <strong>Estrangeiro</strong>')
-            }
-        }
-        
-    </script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/img/calculadora.png" type="image/x-icon">
     <link rel="stylesheet" href="src/css/index.css">
+    <script defer src="./src/js/index.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -28,37 +29,5 @@
 
         <a href="https://danielfloriano7.github.io/html-css/teste/"> Voltar</a>
     </main>
-
-    <script>
-        
-        function somar() {
-            var tn1 = window.document.getElementById('txn1')
-            var tn2 = window.document.querySelector('input#txn2')
-          
-            var n1 = Number(tn1.value)
-            var n2 = Number(tn2.value)
-
-            var res = document.getElementById('res')
-
-            var c = document.querySelector('#conta')
-            var conta = String(c.value)
-
-            if (conta == '+') {
-                var r = n1 + n2 
-            }
-            if (conta == '-') {
-                var r = n1 - n2
-            }
-            if (conta == '*') {
-                var r = n1 * n2
-            }
-            if (conta == '/') {
-                var r = n1 / n2
-            }
-            
-            res.innerHTML = `Resultado: <br> ${n1} ${conta} ${n2} é igual a <strong>${r}</strong>`
-        }
-
-    </script>
 </body>
 </html>
