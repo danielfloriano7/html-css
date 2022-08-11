@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, rgb(8, 156, 255), blue);
+    background-attachment: fixed;
+}
+main {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    height: 320px;
+    background-color: rgb(92, 190, 247);
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid darkblue;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+select {
+    border: 1px solid black ;
+    border-radius: 30%;
+    padding: 3px;
+    width: 40px;
+    height: 25px;
+    
+    text-align: center;
+    
+}
+
+input, select, main,div {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.425);
+}
+
+input {
+    width: 60px;
+    margin: 7px;
+    border-radius: 7px;
+    height: 20px;
+}
+
+input#exer {
+    width: 70px;
+    height: 25px;
+}
+
+input#txn1, input#txn2 {
+    padding: 3px;
+    
+}
+
+input:focus {
+ outline: 0;   
+}
+
+div#res {
+    background-color: white;
+    width: 180px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 18px auto;
+    padding: 2px;
+    line-height: 22px;
+}
+
+a::before {
+    content: '\00A0\00a0\1F519';
+}
