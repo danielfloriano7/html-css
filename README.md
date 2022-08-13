@@ -11,6 +11,6 @@
 </a> 
 <br/>
 
-<a href="https://danielfloriano7.github.io/html-css/teste"> <img width="40" src="https://github.com/danielfloriano7/html-css/blob/main/teste/images/favicon.svg" />
+<a href="https://danielfloriano7.github.io/html-css/teste"> <img width="40" src="https://raw.githubusercontent.com/danielfloriano7/html-css/main/teste/src/img/favicon.ico" />
 &ensp;Meus Testes
 </a>
