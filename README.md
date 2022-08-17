@@ -14,3 +14,7 @@
 <a href="https://danielfloriano7.github.io/html-css/teste"> <img width="40" src="https://raw.githubusercontent.com/danielfloriano7/html-css/main/teste/src/img/favicon.ico" />
 &ensp;Meus Testes
 </a>
+
+<a href="https://danielfloriano7.github.io/projeto-social/myVersion/"> <img width="42" src="https://icons.iconarchive.com/icons/archigraphs/mac/64/iPhone-icon.png" />
+&ensp;Redes Sociais
+</a>
