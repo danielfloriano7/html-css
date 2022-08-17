@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/media-query.css">
+
+    <link rel="shortcut icon" href="img/icon-phone.png" 
+    media="screen and (max-width: 768px)" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icon-tablet.png" 
+    media="screen and (min-width: 768px) and (max-width: 992px)" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icon-pc.png" 
+    media="screen and (min-width: 992px) and (max-width: 1200px)" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icon-tv.png" 
+    media="screen and (min-width: 1200px)" type="image/x-icon">
 </head>
 <body>
     
+    <main>
+        <h1>Testanto Media Queries</h1>
+        <img id="phone" src="img/icon-phone.png" alt="Acessando via Smartphone">
+        <img id="tablet" src="img/icon-tablet.png" alt="Acessando via tablet">
+        <img id="print" src="img/icon-print.png" alt="Versão para impressão">
+        <img id="pc" src="img/icon-pc.png" alt="Versão para desktop">
+        <img id="tv" src="img/icon-tv.png" alt="Versão para TV">
+    </main>
 </body>
 </html>
