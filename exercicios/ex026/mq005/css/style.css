@@ -1,19 +1,36 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0%;
+    padding: 0%;
+}
+
 html, body {
     background-color: lightgray;
 }
 
-menu {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+header {
+    background-color: rgb(138, 138, 138);
+
 }
 
+header > h1 {
+    padding: 10px;
+    text-align: center;
+
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+/*
 ul {
     list-style: none;
     display: flex;
@@ -24,4 +41,38 @@ ul {
 
 li {
     padding:  0 10px 0 0;
+} */
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+    color: white;
+
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
