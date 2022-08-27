@@ -41,9 +41,20 @@ span#burguer:hover {
 
 menu {
     display: none;
+    position: relative;
+
+    
 }
 
 menu > ul {
+    position: absolute;
+    left: 50%;
+    width: 100vw;
+
+    transform: translate(-50%, 0);
+    transition: display 2s ;
+    
+    
     list-style-type: none;
 }
 
